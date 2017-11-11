@@ -30,23 +30,6 @@ public class UserInput {
 			}
 		}
 
-		// Don't compare String Directly
-
-		if (name == "Akilan") {
-			System.out.println("Your name is Akilan");
-		} else {
-			System.out.println("Your name is not Akilan");
-		}
-
-		// This is the correct way to compare two strings
-
-		if (name.equals("Akilan")) {
-			System.out.println("Your name is Akilan");
-			System.out.println("Index of 'l' is " + name.indexOf("l"));
-			
-		} else {
-			System.out.println("Your name is not Akilan");
-		}
 		
 		double salary = 50_000.00;
 		NumberFormat sal = NumberFormat.getNumberInstance();
